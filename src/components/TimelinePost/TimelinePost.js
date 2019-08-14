@@ -84,7 +84,8 @@ class TimelinePost extends Component {
             toggleLike(messageID)}
             } 
             style={{ marginLeft: "0.75rem" }} href="#">
-            <FontAwesomeIcon icon="heart" style={heartStyle}/> {likes.length} Like(s)
+            <FontAwesomeIcon icon="heart" style={heartStyle}/>
+             {likes ? likes.length: 0} Like(s)
           </Card.Link>
         </Card.Body>
       </Card>

@@ -43,6 +43,7 @@ class ProfileBox extends Component {
     })
 
     const formData = new FormData(e.target)
+    
     editPicture({
       file: formData,
       token: token,
